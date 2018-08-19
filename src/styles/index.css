@@ -1,0 +1,22 @@
+* {
+  color: #F7F5D1;
+  font-family: "Raleway", Verdana, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    to right,
+    rgba(44,149,133,0.77),
+    rgba(2,82,70,0.77)
+  ), url("../assets/mountain_range_pixabay.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

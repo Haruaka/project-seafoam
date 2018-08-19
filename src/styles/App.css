@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  justify-content: right;
+  height: 8vh;
+  padding-top: 3vh;
+  padding-right: 5vw;
+  background-color: rgba(247, 245, 209, 0.8);
+}
+
+.header ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header li {
+  float: left;
+  margin-left: 4vw;
+  font-size: 1.5em;
+  font-weight: 200;
+  color: rgba(44, 149, 133, 1);
+}
+
+.content {
+  margin-top: 3vh;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 6vh;
+  background-color: rgba(247, 245, 209, 0.8);
+}
+
+/*
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer
+   background:#6cf;
+*/

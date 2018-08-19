@@ -1,18 +1,29 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './styles/App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div>
+        <div className="header">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Portfolio</li>
+          </ul>
+        </div>
+        <div>
+          <div>
+          </div>
+          <div className="content">
+            <h1>My Name Here</h1>
+            <h2>Graphic Designer & Front-end Developer</h2>
+            <p>
+              I’m an undergraduate CS major with a passion in design. Primarily, I’m a Javascript programmer, but I know how to do HTML/CSS and Java as well. I also do designs for print materials and web or mobile mockups.
+              </p>
+          </div>
+        </div>
+        <div className="footer"></div>
       </div>
     );
   }

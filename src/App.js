@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import profileImg from './assets/tempcupofjoe.png';
 import './styles/App.css';
 
 class App extends Component {
@@ -12,17 +13,18 @@ class App extends Component {
             <li>Portfolio</li>
           </ul>
         </div>
-        <div>
-          <div>
-          </div>
           <div className="content">
-            <h1>My Name Here</h1>
+            <div>
+              <img src={profileImg} alt="Profile Img" className="profileImg"/>
+            </div>
+            <div className = "textField"><h1>My Name Here</h1>
             <h2>Graphic Designer & Front-end Developer</h2>
             <p>
-              I’m an undergraduate CS major with a passion in design. Primarily, I’m a Javascript programmer, but I know how to do HTML/CSS and Java as well. I also do designs for print materials and web or mobile mockups.
-              </p>
+I’m an undergraduate CS major with a passion in design. Primarily, I’m a Javascript programmer, but I know how to do HTML/CSS and Java as well. I also do designs for print materials and web or mobile mockups.
+</p>
+            </div>
+
           </div>
-        </div>
         <div className="footer"></div>
       </div>
     );
@@ -30,3 +32,6 @@ class App extends Component {
 }
 
 export default App;
+/*<p>
+I’m an undergraduate CS major with a passion in design. Primarily, I’m a Javascript programmer, but I know how to do HTML/CSS and Java as well. I also do designs for print materials and web or mobile mockups.
+</p>*/

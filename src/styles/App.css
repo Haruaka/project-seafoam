@@ -7,42 +7,45 @@
   background-color: rgba(247, 245, 209, 0.8);
 }
 
-.header ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
 .header li {
-  float: left;
   margin-left: 4vw;
   font-size: 1.5em;
   font-weight: 200;
   color: rgba(44, 149, 133, 1);
 }
 
+/*flex-grow: 1, flex: 1*/
 .content {
   display: flex;
-  flex: 1;
   flex-direction: row;
-  height: 75vh;
-  flex-grow: 1;
+  justify-content: center;
   align-items: center;
   margin-top: 3vh;
-  overflow: auto;
+  height: 75vh;
+  overflow: auto
+}
+
+.content li {
+  margin-top: 5vh;
+  margin-right: 3vw;
+  font-size: 2.5em;
+  color: rgba(247, 245, 209, 0.8);
 }
 
 .profileImg {
-  height: 40vh;
-  width: 40vw;
-  border-radius: 70%;
+  display: flex;
+  align-self: flex-start;
+  height: 25em;
+  width: 25em;
+  border-radius: 60%;
 }
 
 .textField {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
+  text-align: left;
+  margin-left: 5vw;
+  width: 50%;
 }
 
 .footer {

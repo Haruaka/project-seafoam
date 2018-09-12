@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import profileImg from './assets/tempcupofjoe.png';
+import profileImg from './assets/profileimg.jpg';
 import './styles/App.css';
 
 import Header from './components/Header'
@@ -15,15 +15,15 @@ class App extends Component {
             <img src={profileImg} alt="Profile Img" className="profileImg"/>
           </div>
           <div className = "textField">
-            <h1>My Name Here</h1>
+            <h1>Shanna Sit</h1>
             <h2>Graphic Designer & Front-end Developer</h2>
             <p>
               I’m an undergraduate CS major with a passion in design. Primarily, I’m a Javascript programmer, but I know how to do HTML/CSS and Java as well. I also do designs for print materials and web or mobile mockups.
             </p>
             <ul>
-              <li><i className="fab fa-github"></i></li>
-              <li><i className="fab fa-linkedin"></i></li>
-              <li><i className="fa fa-envelope"></i></li>
+              <li><a href="https://github.com/Haruaka"><i className="fab fa-github"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/sit-shanna/"><i className="fab fa-linkedin"></i></a></li>
+              <li><a href="ssit002@fiu.edu"><i className="fa fa-envelope"></i></a></li>
             </ul>
           </div>
         </div>

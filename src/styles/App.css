@@ -21,6 +21,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 3vh;
+  width: 100vw;
   height: 75vh;
   overflow: auto
 }
@@ -35,8 +36,8 @@
 .profileImg {
   display: flex;
   align-self: flex-start;
-  height: 25em;
-  width: 25em;
+  height: 20em;
+  width: 20em;
   border-radius: 60%;
 }
 
@@ -48,9 +49,63 @@
   width: 50%;
 }
 
+.skillSet {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  text-align: center;
+  padding: 10vh 2vw 4vh 2vw;
+  margin-left: 2vw;
+  width: 38vw;
+  height: 80vh;
+  font-size: 0.5em;
+  background-color: rgba(201, 182, 117, 0.35);
+  overflow: auto;
+}
+
+.skillSet h2 {
+  font-style: normal;
+  font-weight: 600;
+}
+
+.skillSet ul {
+  list-style-type: none;
+}
+
+.skillSet li {
+  float: none;
+  font-size: 1.3em;
+  margin: 1vh 0;
+  padding: 0;
+}
+
+.icon {
+  font-size: 3em;
+}
+
 .footer {
   margin-top: 5vh;
   width: 100%;
   height: 6vh;
   background-color: rgba(247, 245, 209, 0.8);
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(247, 245, 209, 0);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(247, 245, 209, 0);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(201, 182, 117, 0);
 }

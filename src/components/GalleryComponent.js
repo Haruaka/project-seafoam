@@ -9,7 +9,7 @@ class GalleryComponent extends React.Component {
         return (
             <div>
                 <Header/>
-                <div>
+                <div className="content">
                     <p>Hello! This is the Gallery Containter</p>
                 </div>
                 <Footer/>
